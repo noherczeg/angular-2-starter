@@ -2,6 +2,10 @@
   "name": "angular-2-starter",
   "version": "0.1.0",
   "description": "Angular 2 webpack sample project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noherczeg/angular-2-starter.git"
+  },
   "scripts": {
     "build": "webpack --progress",
     "build:prod": "cross-env APP_ENVIRONMENT=production webpack -p --progress",
